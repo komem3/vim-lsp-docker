@@ -7,4 +7,4 @@ docker run -ti --rm -v $('pwd'):/mnt/workspace \
        -v ${VIM_SETTING}:/root/.vimrc \
        -v ${PROJECT_DIR}:/Project \
        $DOCKER_FLAGS \
-       vimlsp/lsp-docker:latest vim
+       vimlsp/lsp-docker:latest /bin/bash
